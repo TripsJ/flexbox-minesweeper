@@ -26,8 +26,8 @@ body{
     border: 6px solid;
     border-color: #CBCBCB;
 
-    max-width: 26em;
-    max-height:26em;
+    max-width: 27em;
+    max-height:27em;
     
 }
 .row{
@@ -40,8 +40,8 @@ body{
     align-items: center;
     justify-content: center;
     border: 2px dotted;
-    height: 1em;
-    width: 1em;
+    height: 1.25em;
+    width: 1.35em;
     text-align: center;
     background-color: #C0C0C0;
     border-color: black;
