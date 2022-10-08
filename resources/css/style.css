@@ -1,75 +1,66 @@
-
-
 @import url("https://fonts.googleapis.com/css2?family=Silkscreen&display=swap");
 
-*{
-    padding: 0;
-    margin:0;
-    box-sizing: content-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
 }
 
-
-
-
-body{
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: "Silkscreen";
-    font-size: large;
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Silkscreen";
+  font-size: large;
 }
 
-.field{
-    padding: 4px;
-    background-color: #929292;
-    border: 6px solid;
-    border-color: #CBCBCB;
+.field {
+  padding: 4px;
+  background-color: #929292;
+  border: 6px solid;
+  border-color: #cbcbcb;
 
-    max-width: 27em;
-    max-height:27em;
-    
+  max-width: 27em;
+  max-height: 27em;
 }
-.row{
-    display:flex;
-    flex-flow:row;
-    
+.row {
+  display: flex;
+  flex-flow: row;
 }
-.box{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    border: 2px dotted;
-    height: 1.25em;
-    width: 1.35em;
-    text-align: center;
-    background-color: #C0C0C0;
-    border-color: black;
-    /* border-collapse: collapse; */
-    /* THATS FOR Tables only */
-    border-top: none;
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px dotted;
+  height: 1.25em;
+  width: 1.35em;
+  text-align: center;
+  background-color: #c0c0c0;
+  border-color: black;
+  /* border-collapse: collapse; */
+  /* THATS FOR Tables only */
+  border-top: none;
 }
 
-.box + .box{
-    border-left: none;
+.box + .box {
+  border-left: none;
 }
 
-
-
-.red{
-    color: #F40000;
+.red {
+  color: #f40000;
 }
 
-.green{
-    color: #047C05;
+.green {
+  color: #047c05;
 }
 
-.blue{
-    color: #1D10FF
+.blue {
+  color: #1d10ff;
 }
 
-.cover{
-    border-style: solid;
-    border-width: 2px;
-    border-color: white black black white;
+.cover {
+  border-style: solid;
+  border-width: 2px;
+  border-color: white black black white;
 }
