@@ -9,6 +9,8 @@
 }
 
 
+
+
 body{
     height: 100vh;
     display: flex;
@@ -38,8 +40,8 @@ body{
     align-items: center;
     justify-content: center;
     border: 2px dotted;
-    height: 3em;
-    width: 3em;
+    height: 1em;
+    width: 1em;
     text-align: center;
     background-color: #C0C0C0;
     border-color: black;
@@ -65,10 +67,6 @@ body{
 .blue{
     color: #1D10FF
 }
-
-/* .bottom .box{
-    border-bottom: 2px solid;
-} */
 
 .cover{
     border-style: solid;
